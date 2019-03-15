@@ -42,25 +42,25 @@ do{
 				printf("Enter the first number:");scanf("%f",&num1);
 				printf("Enter the second number:");scanf("%f",&num2);
 				num3=num1*num2;
-				printf("%f*%f=%f",num1,num2,num3);
+				printf("%.2f*%.2f=%.2f",num1,num2,num3);
 			break;
 		case'*':
 				printf("Enter the first number:");scanf("%f",&num1);
 				printf("Enter the second number:");scanf("%f",&num2);
 				num3=num1*num2;
-				printf("%f*%f=%f",num1,num2,num3);
+				printf("%.2f*%.2f=%.2f",num1,num2,num3);
 			break;
 		case'4':
 				printf("Enter the first number:");scanf("%f",&num1);
 				printf("Enter the second number:");scanf("%f",&num2);
 				num3=num1/num2;
-				printf("%f/%f=%f",num1,num2,num3);
+				printf("%.2f/%.2f=%.2f",num1,num2,num3);
 			break;
 		case'/':
 				printf("Enter the first number:");scanf("%f",&num1);
 				printf("Enter the second number:");scanf("%f",&num2);
 				num3=num1/num2;
-				printf("%f/%f=%f",num1,num2,num3);
+				printf("%.2f/%.2f=%.2f",num1,num2,num3);
 			break;
 		case'5':
 				printf("Enter a number:");scanf("%f",&num1);
